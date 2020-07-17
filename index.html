@@ -4,8 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Practice</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-    <h1>hi, This is test</h1>
+    <h1>navs</h1>
+    <ul class="nav justify-content-center fixed-top">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact us
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </ul>
+
+    <h1>About button</h1>
+    <button class="btn btn-primary" >CLICK ME</button>
+    <button class="btn btn-outline-success" >DOWNLOAD MY CV</button>
+    <button class="btn btn-outline-primary">CLICK HERE</button>
+
+    <h1 class="text-secondary" >About text-color</h1>
+    <p class="text-success">Hello, I'm Amirul Islam Limon. Now I'm learning bootstrap. And soon I will be a good bootstrap user. So please pray for me that I can be a good bootstrap user. Thanks for your patient reading.</p>\
+    <div class="item1 btn-warning">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, iste!</p>
+    </div>
+    <div class="item2 btn-danger">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, libero?</p>
+    </div>
+    <div class="item3 btn-success">
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, architecto!</P>
+    </div>
+    <h3>About Images</h3>
+    <img src="https://image.freepik.com/free-vector/futuristic-mobile-technology_46706-680.jpg" class="img-fluid w-25" alt="Responsive image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJjmtsj9FT5Hifhfpxdcc229cEwuX01Xdl-A&usqp=CAU" class="img-fluid w-25 rounded" alt="Responsive image">
+
+    <h1>About Cart</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="https://www.irishtimes.com/polopoly_fs/1.3594671.1534163385!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">This is potato</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="https://2.wlimg.com/product_images/bc-full/2019/6/2826301/fresh-green-chili-1561720328-4975791.jpeg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, sunt architecto eum impedit et voluptatibus corrupti quas pariatur neque quo. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="https://amardesheshop.com/media/catalog/product/cache/82/image/290x/9df78eab33525d08d6e5fb8d27136e95/2/0/20170615_115722.jpg" class="card-img-top h-50" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://www.vegforu.com/vegetables/pointed-gourd-vegetable.jpg" class="card-img-top h-50" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXyggYmN0IGLf7XVIKDUD12IZ7pFJnyl_mMg&usqp=CAU" class="card-img-top h-50" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <h1>Navs</h1>
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+      </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<h1>Layout Grid</h1>
+      <div class="container">
+          <div class="row">
+              <div class="col   ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, est hic obcaecati, eligendi quasi vel dolore dignissimos possimus voluptas quos saepe. Voluptas maxime magni accusantium explicabo in fugit alias vero sequi facilis dolore delectus itaque iure, recusandae cumque quia quo eos placeat aperiam, quos tempore dolorum iste eius pariatur. Incidunt.</div>
+              <div class="col   ">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, nihil magni ipsum provident, omnis obcaecati doloribus fugit molestias numquam similique, culpa magnam necessitatibus dolore itaque optio! Dolor praesentium cumque eius obcaecati impedit nihil, maiores aut veritatis ut, dolorem voluptatum vel fuga sunt quam tempora dolores possimus corrupti vitae voluptates consequuntur.
+              </div>
+              <div class="col   ">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut inventore voluptatem eos quam iste cumque fugiat repellendus veniam, voluptatibus reiciendis consequuntur ab placeat odio. Excepturi, laudantium, corporis inventore consectetur ullam nisi tempore provident quibusdam unde natus deleniti, ratione ad aperiam sint? Accusamus exercitationem labore laudantium vel, similique et dolorem dolorum?
+              </div>
+              <div class="col   ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut inventore voluptatem eos quam iste cumque fugiat repellendus veniam, voluptatibus reiciendis consequuntur ab placeat odio. Excepturi, laudantium, corporis inventore consectetur ullam nisi tempore provident quibusdam unde natus deleniti, ratione ad aperiam sint? Accusamus exercitationem labore laudantium vel, similique et dolorem dolorum?
+            </div>
+
+          </div>
+      </div>
+
+      <h1>For Order</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-el-4 col-lg-4 col-md-6 col-sm-12">
+            First in DOM, no order applied
+          </div>
+          <div class="col-el-4 col-lg-4 col-md-6 col-sm-12 order-md-first">
+            Second in DOM, with a larger order
+          </div>
+          <div class="col-el-4 col-lg-4 col-md-6 col-sm-12 order-lg-first">
+            Third in DOM, with an order of 1
+          </div>
+        </div>
+      </div>
+
+<h1>Carousel</h1>
+<div class="container">
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="1000">
+            <img src="https://www.kalerkantho.com/assets/news_images/2019/12/15/000744kalerkantho-2019-12-15-4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="1000">
+            <img src="https://mla5kpc0izpw.i.optimole.com/w:auto/h:auto/q:90/https://www.eazelyf.com/wp-content/uploads/2019/01/potol-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="1000">
+            <img src="https://gudree.com/wp-content/uploads/2019/06/ridge-gourd-copy-400x400.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
 </body>
 </html>
